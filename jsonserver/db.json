@@ -1,0 +1,25 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "nome": "Admin",
+            "email": "admin@gmail.com",
+            "password": "$2a$10$Y4/4ws04wYotZQg2RB1bwurp7W6RCq.NLrUEEONlOZEdjLXCVG/LW",
+            "permissoes": "admin"
+        },
+        {
+            "nome": "Yuri Alberto",
+            "email": "alberto@gmail.com",
+            "permissoes": "admin",
+            "password": "",
+            "id": 2
+        },
+        {
+            "nome": "Yamal",
+            "email": "lamine@gmail.com",
+            "permissoes": "colaborador",
+            "password": "$2a$10$bDeTdqxurJ0AW6RIOK/O/.lacPtYYEVdVCevXQ2zGk02O4K7zHj72",
+            "id": 3
+        }
+    ]
+}
