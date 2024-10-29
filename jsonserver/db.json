@@ -21,5 +21,25 @@
             "password": "$2a$10$bDeTdqxurJ0AW6RIOK/O/.lacPtYYEVdVCevXQ2zGk02O4K7zHj72",
             "id": 3
         }
+    ],
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "Pen Drive"
+        },
+        {
+            "id": 2,
+            "nome": "Mouse"
+        }
+    ],
+    "produtos": [
+        {
+            "id": 1,
+            "id_categoria": 1,
+            "nome": "Novu Pendrive com MetaIA",
+            "valor": 90.90,
+            "promo": 79.90,
+            "imagem": "pendrives/pendrive.jpg"
+        }
     ]
 }

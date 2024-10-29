@@ -83,13 +83,13 @@ export const NavbarLink = styled(Link)`
 `;
 
 export const NavbarLinkExtended = styled(Link)`
-  color: var(--text-title);
+  color: var(--white);
   font-size: large;
   text-decoration: none;
   margin: 10px;
 
-  :hover {
-    color: var(--white);
+  &:hover {
+    color: var(--red);
   }
 `;
 
