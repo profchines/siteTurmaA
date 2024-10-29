@@ -45,11 +45,11 @@ export const Menu = () => {
                             </NavbarLinkExtended>
                         ))
                     }
-
-
                 </LeftContainer>
                 <RightContainer>
-
+                    <NavbarLinkExtended href={'/carrinho'}>
+                        Car
+                    </NavbarLinkExtended>
                 </RightContainer>
             </NavbarInnerContainer>
 
