@@ -1,3 +1,4 @@
+import { ReactNode } from "react";
 
 export interface IProduto {
     "id": string,
@@ -6,5 +7,6 @@ export interface IProduto {
     "valor": string,
     "promo": string,
     "imagemg": string,
-    "imagemp": string
+    "imagemp": string,
+    button: () => ReactNode
 }

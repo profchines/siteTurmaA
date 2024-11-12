@@ -43,6 +43,7 @@ export default async function Home() {
                 promo={produto.promo}
                 imagemg={produto.imagemg}
                 imagemp={produto.imagemp}
+                button={() => <button>OK</button>}
               />
             ))
           }

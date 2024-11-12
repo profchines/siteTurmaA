@@ -4,6 +4,7 @@ import { IProduto } from "@/interfaces"
 
 export const Card = (props: IProduto) => {
     return (
+        <>
         <CardBody>
             <img src={
                 'https://raw.githubusercontent.com/profchines/Imagens/refs/heads/main/Imagens/' +
@@ -17,6 +18,13 @@ export const Card = (props: IProduto) => {
             <Button>
                 <TextButton>Detalhes</TextButton>
             </Button>
+            {
+                props?.button ?
+                    props.button()
+                    :
+                    <></>
+            }
         </CardBody>
+            </>
     )
 }
